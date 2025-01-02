@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Calculator</title>
+  <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+
+  <!--start outer calculator wrapper-->
+  <div class="outer-wrapper">
+  <!--start calculator wrapper-->
+    <div class="calculator-wrapper">
+
+      <h1>Calculator</h1>
+  
+      <input class="js-display display">
+  
+      <div class="button-grid"> 
+        <button class="js-button" data-value="1">1</button>
+        <button class="js-button" data-value="2">2</button>
+        <button class="js-button" data-value="3">3</button>
+        <button class="js-button" data-value="4">4</button>
+      </div>
+  
+     <div class="button-grid">
+      <button class="js-button" data-value="5">5</button>
+      <button class="js-button" data-value="6">6</button>
+      <button class="js-button" data-value="7">7</button>
+      <button class="js-button" data-value="8">8</button>
+     </div>
+  
+     <div class="button-grid">
+        
+      <button class="js-button" data-value="9">9</button>
+      <button class="js-button add" data-value=" + ">+</button>
+      <button class="js-button minus" data-value=" - ">-</button>
+      <button class="js-button multiply" data-value=" * ">*</button>
+      </div>
+  
+      <div class="button-grid">
+        <button class="js-button divide" data-value=" / ">/</button>
+        <button class="js-button dot" data-value=".">.</button>
+        <button class="js-button-calculate calculate">=</button>
+        <button class="js-clear clear" data-value=" ">Clear</button>
+      </div>
+    </div>
+    <!--end main calculator wrapper-->
+  </div>
+  <!--end outer calculator wrapper-->
+
+  <script src="calculator.js"></script>
+</body>
+</html>
