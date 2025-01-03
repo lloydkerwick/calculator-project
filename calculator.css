@@ -73,7 +73,7 @@ button:hover {
   border: 2px solid black;
 }
   
-.multiply, .add, .minus, .divide, .calculate, .dot, .operator {
+.operator {
   background-color: #F97316;
 }
   
