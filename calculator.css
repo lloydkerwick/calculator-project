@@ -6,7 +6,6 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   height: 100vh;
   background-color: #1E293B;
-
 }
 
 .calculator-wrapper {
@@ -17,12 +16,33 @@ body {
   border: solid black 1px;
   padding: 20px;
   background-color: #E2E8F0;
-  box-shadow: (0, 0, 0, rgba(0, 0, 0, 0.2px));
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .outer-wrapper {
   padding: 20px;
   border: solid 4px grey;
+  background-color: black;
+}
+
+.button-grid {
+  display: flex;
+  gap: 10px;
+}
+
+h1 {
+  margin-bottom: 0px;
+  align-self: center;
+  background-color: #CBD5E1;
+  color: #1E293B;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  border: 1px solid black;
+  border-radius: 2px;
+  padding: 10px 0;
+  margin-top: 5px;
 }
 
 button {
@@ -32,90 +52,27 @@ button {
   font-size: 18px;
   width: 50px;
   text-align: center;
-}
-
-.button-grid {
-  display: flex;
-  gap: 10px;
+  border-radius: 2px;
 }
 
 button:hover {
-  background-color: orangered;
-  transition: 0, 0, 0.15s;
+  background-color: #D65B31;
+  transition: background-color 0.15s ease;
 }
 
 .clear {
   text-align: center;
   font-size: 14px;
+  background-color: #10B981;
 }
 
+.display {
+  margin-top: 10px;
+  height: 35px;
+  border: 2px solid black;
+}
   
-  .calculator-wrapper {
-    display: flex;
-    flex-direction: column;
-    column-gap: 10px;
-    row-gap: 10px;
-    border: solid black 1px;
-    padding: 20px;
-    background-color: #E2E8F0;
-    box-shadow: (0, 0, 0, rgba(0, 0, 0, 0.2px));
-  }
+.multiply, .add, .minus, .divide, .calculate, .dot {
+  background-color: #F97316;
+}
   
-  .outer-wrapper {
-    padding: 20px;
-    border: solid 4px grey;
-  }
-  
-  button {
-    padding: 10px;
-    background-color: #3B82F6;
-    border: 1px solid black;
-    font-size: 18px;
-    width: 50px;
-    text-align: center;
-  }
-  
-  .button-grid {
-    display: flex;
-    gap: 10px;
-  }
-  
-  button:hover {
-    background-color: orangered;
-    transition: 0, 0, 0.15s;
-  }
-  
-  .clear {
-    text-align: center;
-    font-size: 14px;
-  }
-  
-  .multiply, .add, .minus, .divide, .calculate, .clear, .dot {
-    background-color: #F97316;
-  }
-  
-  h1 {
-    margin-bottom: 0px;
-    align-self: center;
-    background-color: #CBD5E1;
-    color: #1E293B;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-    padding: 10px 0;
-    margin-top: 5px;
-  }
-  
-  .display {
-    margin-top: 10px;
-    height: 35px;
-  }
-  
-  .button-grid {
-    display: flex;
-    flex-direction: space-between;
-    gap: 10px;
-  }
-
-
