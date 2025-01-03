@@ -64,6 +64,7 @@ button:hover {
   text-align: center;
   font-size: 14px;
   background-color: #10B981;
+  flex-grow: 1;
 }
 
 .display {
@@ -72,7 +73,7 @@ button:hover {
   border: 2px solid black;
 }
   
-.multiply, .add, .minus, .divide, .calculate, .dot {
+.multiply, .add, .minus, .divide, .calculate, .dot, .operator {
   background-color: #F97316;
 }
   
