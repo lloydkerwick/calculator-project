@@ -16,9 +16,7 @@ document.querySelector('.js-clear').addEventListener('click', () => {
 
 document.querySelector('.js-button-calculate').addEventListener('click', () => {
 try {
-    const displayValue =  display.value;
-    const result = eval(displayValue)
-    display.value = result
+    display.value = eval(display.value)
 } catch (error) {
     display.value = "Error"
 }  
